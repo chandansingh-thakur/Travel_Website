@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Page</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            position: relative;
+            top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f0f0f0;
+        }
+
+        .container{
+            background: #ffffff;
+            width: 350px;
+            padding: 30px;
+            border-radius: 12px;
+           box-shadow: 2px 2px 40px gray;
+        }
+
+        h2{
+            text-align: center;
+            margin: 0px 0px 20px 0px;
+            color: #333;
+        }
+
+        .input{
+            margin-bottom: 15px;
+        }
+
+        .input label{
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            color: #301d1d;
+        }
+
+        .input input{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #301d1d;
+            border-radius: 10px;
+            font-size: 15px;
+        }
+
+        .input input:focus{
+            border-color: #4B91F1;
+            
+        }
+
+        .btn{
+            width: 100%;
+            padding: 12px;
+            background: #4B91F1;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover{
+            background: #1c6ee9;
+        }
+    </style>
+</head>
+<body>
+
+    <form class="container">
+        <h2>Sign In</h2>
+
+        <div class="input">
+            <label>Username:</label>
+            <input type="text" placeholder="Enter Username" required>
+        </div>
+        <div class="input">
+            <label>Email:</label>
+            <input type="email" placeholder="Enter Yor Email" required>
+        </div>
+        <div class="input">
+            <label>Mobile Number:</label>
+            <input type="number" placeholder="Enter Your Number" required>
+        </div>
+        <button class="btn">Sign In</button>
+
+    </form>
+
+</body>
+</html>

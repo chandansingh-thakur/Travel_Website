@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruise Travel</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background: #f7f7f7;
+           
+        }
+
+        .header{
+            background: url("https://wallpaper.forfun.com/fetch/84/84c61a16faa675db943517d029810aad.jpeg?w=1470&r=0.5625&f=webp") ;
+            background-repeat: no-repeat;
+            background-position: center;
+            object-fit: cover;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 3px 3px 5px rgba(0,0,0,0.7);
+        }
+
+        .header h1{
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .about{
+            padding: 40px 60px;
+            background: #fff;
+        }
+
+        .about h2{
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .about p{
+            font-size: 17px;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .gallery{
+            padding: 40px 60px;
+        }
+
+        .gallery h2{
+            margin:0px 0px  20px 0px;
+            color: #333;
+        }
+
+        .photos{
+            display: grid;
+            grid-template-columns: 1.5fr 1.5fr;
+            gap: 20px;
+        }
+
+        .photos img{
+            width: 90%;
+            height: 250px;
+            border-radius: 10px;
+            object-fit: cover;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .book{
+            padding: 40px 60px;
+            background: #fff;
+            text-align: center;
+        }
+
+        .book h2{
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .book p{
+            color: #555;
+            margin-bottom: 20px;
+            font-size: 17px;
+        }
+
+        .btn{
+            padding: 12px 30px;
+            font-size: 17px;
+            background: #0077ff;
+            border: none;
+            border-radius: 6px;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover{
+            background: #005cd1;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    
+    <div class="header">
+        <h1>Luxury Cruise Experience</h1>
+    </div>
+
+    <section class="about">
+        <h2>About Our Cruises</h2>
+        <p>
+            Enjoy world-class cruise travel with breathtaking ocean views, premium dining, luxury
+            rooms, and a once-in-a-lifetime travel experience.
+        </p>
+        <p>
+            Our cruises offer destinations including Maldives, Dubai, Mediterranean, Singapore,
+            Goa, and many more. Each cruise includes activities like swimming pools, gaming zones,
+            theatres, spas, and live shows.
+        </p>
+    </section>
+
+    <section class="gallery">
+        <h2>Cruise Gallery</h2>
+        <div class="photos">
+            <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80" alt="Cruise 1">
+            <img  src="https://images.unsplash.com/photo-1554254648-2d58a1bc3fd5?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3J1aXNlJTIwc2hpcHxlbnwwfHwwfHx8MA%3D%3D" alt="Cruise 2">
+        </div>
+    </section>
+
+    <section class="book">
+        <h2>How to Book a Cruise?</h2>
+        <p>
+            Booking a cruise is simple. Choose your travel date, select the cruise type, pick a
+            room category, and fill in your details. THe support team of <b>SINGH TRAVELS</b> will contact you instantly.
+        </p>
+
+        <a href="">
+            <button class="btn">Book Now</button>
+        </a>
+    </section>
+
+    
+
+</body>
+</html>
